@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Catalyst-Learn and Fun</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <style>
+      img {
+        border-radius: 3px;
+      }
+      .carousel-inner img {
+        filter: opacity(60%);
+      }
+      h2,
+      p {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar sticky-top bg-body-tertiary navbar-expand-lg bg-dark border-bottom border-bottom-dark"
+      data-bs-theme="dark"
+      style="background-color: #218fdd"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Catalyst</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                COURSES
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">CLASSROOM PROGRAMME</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >CLASSROOM CUM HOME TUTORING</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">ONLINE</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">MOTIVATION</a>
+                  <a class="dropdown-item" href="#">WHAT NEXT IN YOUR CAREER</a>
+                  <a class="dropdown-item" href="#">SEMINARS</a>
+                  <a class="dropdown-item" href="#">SOFT SKILLS</a>
+                  <a class="dropdown-item" href="#">BOOK SUMMARIES</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+      <div class="carousel-indicators carousel-fade">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://source.unsplash.com/1400x200/?education,study"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>WELCOME TO CATALYST</h5>
+            <p>EDUCATION NEWS,WORLD EDUCATION,TRENDING SKILLS</p>
+            <button type="button" class="btn btn-outline-primary">
+              EDU. NEWS
+            </button>
+            <button type="button" class="btn btn-outline-danger">
+              WORLD EDU.
+            </button>
+            <button type="button" class="btn btn-outline-success">
+              TRENDING SKILLS
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item carousel-fade">
+          <img
+            src="https://source.unsplash.com/1400x200/?education,tech"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>COMPITING WITH WORLD EDUCATION</h5>
+            <p>EDUCATION NEWS,WORLD EDUCATION,TRENDING SKILLS</p>
+            <button type="button" class="btn btn-outline-primary">
+              EDU. NEWS
+            </button>
+            <button type="button" class="btn btn-outline-danger">
+              WORLD EDU.
+            </button>
+            <button type="button" class="btn btn-outline-success">
+              TRENDING SKILLS
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item carousel-fade">
+          <img
+            src="https://source.unsplash.com/1400x200/?education,class"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>STUDENT HERE IS ALLOWED TO EXPLORE THE WORLD</h5>
+            <p>EDUCATION NEWS,WORLD EDUCATION,TRENDING SKILLS</p>
+            <button type="button" class="btn btn-outline-primary">
+              EDU. NEWS
+            </button>
+            <button type="button" class="btn btn-outline-danger">
+              WORLD EDU.
+            </button>
+            <button type="button" class="btn btn-outline-success">
+              TRENDING SKILLS
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container marketing my-4">
+      <div class="row">
+        <div class="col-lg-4">
+          <img
+            src="/Assets2/WhatsApp Image 2023-04-05 at 10.48.03.jpeg"
+            class="bd-placeholder-img rounded-circle img-fluid"
+            width="140"
+            height="140"
+          />
+          <h2 class="fw-normal">Founder</h2>
+          <p>
+            Some representative placeholder content for the three columns of
+            text below the carousel. This is the first column.
+          </p>
+          <p><a class="btn btn-danger" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img
+            src="/Assets2/WhatsApp Image 2023-04-05 at 10.48.03.jpeg"
+            class="bd-placeholder-img rounded-circle img-fluid"
+            width="140"
+            height="140"
+          />
+          <h2 class="fw-normal">Co-founder</h2>
+          <p>
+            Another exciting bit of representative placeholder content. This
+            time, we've moved on to the second column.
+          </p>
+          <p><a class="btn btn-success" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img
+            src="/Assets2/WhatsApp Image 2023-04-05 at 10.48.03.jpeg"
+            class="bd-placeholder-img rounded-circle img-fluid"
+            width="140"
+            height="140"
+          />
+          <h2 class="fw-normal">Director</h2>
+          <p>
+            And lastly this, the third column of representative placeholder
+            content.
+          </p>
+          <p><a class="btn btn-primary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+      </div>
+      <!-- /.row -->
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider" />
+
+      <div
+        class="row featurette d-flex justify-content-centre align-items-centre"
+      >
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Our faculties Achievments
+            <span class="text-body-secondary">There work exprience</span>
+          </h2>
+          <p class="lead">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus in deserunt, eius cumque odio dolorem dolore iste
+            asperiores dolorum ad, adipisci incidunt eveniet! Molestias,
+            voluptatibus consectetur! Atque vitae veritatis porro obcaecati
+            corrupti autem culpa perspiciatis sint, consequuntur tenetur quam
+            molestias assumenda. Modi tempore delectus cumque sed sunt quam
+            dolorem non?
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            src="https://source.unsplash.com/500x500/?education,teachers"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Our students<span class="text-body-secondary"
+              >Achievments od our students at different levels</span
+            >
+          </h2>
+          <p class="lead">
+            Another featurette? Of course. More placeholder content here to give
+            you an idea of how this layout would work with some actual
+            real-world content in place.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            src="https://source.unsplash.com/500x500/?education,students"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            OUR ORGANIZATION<span class="text-body-secondary"
+              >Our organizations and their achievement and system</span
+            >
+          </h2>
+          <p class="lead">
+            And yes, this is the last block of representative placeholder
+            content. Again, not really intended to be actually read, simply here
+            to give you a better view of what this would look like with some
+            actual content. Your content.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            src="https://source.unsplash.com/500x500/?education,students"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <!-- /END THE FEATURETTES -->
+    </div>
+    <!-- /.container -->
+
+    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+      <p>
+        Website built for <a href="#">Catalyst</a> by
+        <a href="https://www.instagram.com/neelmanitiwary/">@NeelmaniTiwary</a>.
+      </p>
+      <p class="mb-0">
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
